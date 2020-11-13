@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+    background-color: MidnightBlue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.grid {
+    float: left;
+}
+
+.heading {
+    background-color: SlateBlue;
+    color: white;
+    padding: 15px 14px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.title {
+    float: left;
+}
+
+.counter {
+    float: left;
+}
+
+div.image {
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 5px solid lightgrey ;
+    display: inline-block;
+    margin: 5px;
+}
+
+.images {
+    display: inline-block;
+}
+
+.tripcode {
+    background-color: Lime;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    padding: 5px 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.upload {
+    color: white;
+    background-color: SlateBlue;
+    padding: 7px 6px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+  
+header,
+    .tooltip,
+    .tooltip p {
+        margin: 4em 0;
+        text-align: center;
+}
